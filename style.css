@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 body {
     font-family: Roboto, sans-serif;
     display: flex;
@@ -12,24 +13,19 @@ body {
     justify-content: center;
 }
 
-
-
 .dark-background {
     width: 100vw;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .header,
 .footer {
-    
     width: 92vw;
     display: flex;
     align-items: center;
-    
 }
 
 .header {
@@ -41,10 +37,6 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.links {
-    
 }
 
 ul {
@@ -62,14 +54,11 @@ a {
     color: #E5E7EB;
 }
 
-.content {
-    
+.content {   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .section-description {
@@ -79,8 +68,6 @@ a {
     align-items: center;
     padding: 100px 16px;
     width: 92vw;
-
-    
 }
 
 .description-left {
@@ -138,7 +125,6 @@ img {
     display: flex;
     gap: 32px;
     padding: 0 0 70px 0;
-
 }
 
 .single-image-box {
@@ -146,8 +132,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    /*justify-content: center;
-    align-items: center;*/
 }
 
 .box {
@@ -161,7 +145,6 @@ img {
     font-size: 18px;
     color: #E5E7EB;
     text-align: center;
-    
 }
 
 .grey-section {
@@ -169,12 +152,10 @@ img {
     width: 100vw;
 }
 .quote-section {
-    
     padding: 100px 32px;
     width: 92vw;
     display: flex;
     flex-direction: column;
-    
 }
 
 .quote {
@@ -217,13 +198,8 @@ img {
     font-size: 24px;
 }
 
-.text-call-to-action {
-
-}
-
 .call-button {
-    outline: 2px solid #FFFFFF; 
-    
+    outline: 2px solid #FFFFFF;     
 }
 
 .footer {
