@@ -164,8 +164,12 @@ img {
     
 }
 
-.quote-section {
+.grey-section {
     background-color: #E5E7EB;
+    width: 100vw;
+}
+.quote-section {
+    
     padding: 100px 32px;
     width: 92vw;
     display: flex;
