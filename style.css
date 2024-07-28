@@ -103,12 +103,13 @@ a {
 button {
     background-color: #3882F6;
     border: none;
+    text-decoration: none;
     border-radius: 8px;
     width: 100px;
     padding: 8px;
     color: #FFFFFF;
     font-weight: bold;
-    
+    font-family: Roboto;
 }
 
 .description-right {
@@ -180,4 +181,46 @@ img {
 .quote-signature {
     margin-left: auto;
     font-weight: 900;
+}
+
+.call-to-action-section {
+    display: flex;
+    padding: 50px;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 92vw;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-texts {
+    color: #FFFFFF;
+    font-weight: 300;
+    max-width: 75%;
+}
+
+.heading-call-to-action {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text-call-to-action {
+
+}
+
+.call-button {
+    outline: 2px solid #FFFFFF; 
+    
+}
+
+.footer {
+    padding: 32px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
