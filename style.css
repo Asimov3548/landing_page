@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -168,6 +169,7 @@ img {
     padding: 100px 16px;
     display: flex;
     flex-direction: column;
+    width: 92vw;
 }
 
 .quote {
