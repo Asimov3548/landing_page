@@ -2,19 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+}
+html, body {
+    min-height: 100vh;
 }
 
 body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .dark-background {
-    width: 100vw;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    flex: 1;
 }
 
 .section-description {
