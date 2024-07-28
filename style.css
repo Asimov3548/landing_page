@@ -161,3 +161,23 @@ img {
     text-align: center;
     
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 24px;
+}
+
+.quote-signature {
+    margin-left: auto;
+    font-weight: 900;
+}
